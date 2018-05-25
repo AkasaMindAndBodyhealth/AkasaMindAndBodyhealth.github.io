@@ -1,0 +1,8 @@
+body{
+    background: url(../img/seamless-bambooclear.png) repeat;
+    background-color: rgb(169, 217, 48);
+}
+.intro{
+    margin-top: 10% !important;
+    background-color: rgba(255,255,255,0.4)
+}
