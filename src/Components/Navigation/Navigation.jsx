@@ -9,14 +9,13 @@ class Navigation extends Component {
 
   render() {
     return (
-        <nav id="main-navigation">
-            <div className="nav">
-                <ul>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li></li>
-                </ul>
-            </div>
+        <nav id="main-navigation" className="navbar">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <ul className="nav">
+                <li className="nav-link">About</li>
+                <li className="nav-link">Services</li>
+                <li className="nav-link"></li>
+            </ul>
         </nav>
     );
   }
