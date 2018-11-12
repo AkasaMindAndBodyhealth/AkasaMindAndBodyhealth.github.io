@@ -13,9 +13,15 @@ class Navigation extends Component {
         <nav id="main-navigation" className="navbar">
             <a className="navbar-brand" href="/"><img src={akasaLogo} alt="Akasa Mind and Bodyhealth"/></a>
             <ul className="nav">
-                <li className="nav-link">About</li>
-                <li className="nav-link">Services</li>
-                <li className="nav-link"></li>
+                <Link to={}>
+                    <li className="nav-link">About</li>
+                </Link>
+                <Link to={}>
+                    <li className="nav-link">Services</li>
+                </Link>
+                <Link to={}>
+                    <li className="nav-link">Contact Us</li>
+                </Link>
             </ul>
         </nav>
     );
