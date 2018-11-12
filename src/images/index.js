@@ -1,0 +1,1 @@
+export akasaLogo from  './akasaLogo.png';
