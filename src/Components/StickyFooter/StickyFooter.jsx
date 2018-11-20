@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 
 class StickyFooter extends Component{
     state = {
-        rightMeow: Date.now()
+        rightMeow: new Date()
     }
 
 
     render(){
         return(
             <div className="stickyFooter">
-                Copyright &copy; {this.state.rightMeow} Akasa Mind and Bodyhealth
+                Copyright &copy; {this.state.rightMeow.getFullYear()} Akasa Mind and Bodyhealth
             </div>
         );
     }
