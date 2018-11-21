@@ -9,5 +9,7 @@ If you'd like to contribute to or modify this site please make a pull request or
 
 This site is based on Bootstrap 4, React and we hope to provide a scheduling solution in the future.
 
+For instructions on deploying this app on Github pages please checkout the README_CRA.md file in this folder.
+
 Thanks for your interest,
 The Akasa Web Dev Team
