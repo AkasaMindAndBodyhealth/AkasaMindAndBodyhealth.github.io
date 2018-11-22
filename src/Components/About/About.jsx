@@ -10,7 +10,7 @@ class About extends Component{
                 <h3>Our Therapeutic Modalities</h3>
                 <p>We strive for integration and do not compete with other modalities or practitioners but instead work with them through Holistic services to bring a variety of alternatives to clients everywhere!! We offer many different therapies that help promote holistic health including Massage/Bodywork, Skin Care, Aromatherapy, and Body Alignment!</p>
                 <p>
-                    Disclaimer:
+                    <b>Disclaimer:</b>
                     Therapists at Akasa do not diagnose any medical disorder, nor do they prescribe or adjust medications given by your doctor. Each practitioner follows their modalities code of ethics that reflects their certification or training. Therapies at Akasa can be integrated to address health goals from an alternative angle. They are not intended to replace Western medicine but rather compliment them by addressing health concerns. Working together with your health care provider brings progression to each individual’s health goal choices.
                 </p>
             </div>

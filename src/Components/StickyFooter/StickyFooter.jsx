@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import logo from './logo.svg';
 
 class StickyFooter extends Component{
     state = {
@@ -9,7 +10,14 @@ class StickyFooter extends Component{
     render(){
         return(
             <div className="stickyFooter">
-                Copyright &copy; {this.state.rightMeow.getFullYear()} Akasa Mind and Bodyhealth
+                <div className="container">
+                    <div className="text-center">
+                        Copyright &copy; {this.state.rightMeow.getFullYear()} Akasa Mind and Bodyhealth
+                    </div>
+                    <div className="text-center">
+                        Built with React {logo}
+                    </div>
+                </div>
             </div>
         );
     }

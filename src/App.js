@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import StickyFooter from "./Components/StickyFooter/StickyFooter";
+import StickyFooter from "./Components/StickyFooter";
 
 class App extends Component {
   render() {

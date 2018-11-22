@@ -1,1 +1,1 @@
-import 'StickyFooter'
+export {default} from './StickyFooter';
