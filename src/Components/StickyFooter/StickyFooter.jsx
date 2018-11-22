@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import './StickyFooter.css';
+import logo from '../../logo.svg';
 
 class StickyFooter extends Component{
     state = {
@@ -15,7 +16,7 @@ class StickyFooter extends Component{
                         Copyright &copy; {this.state.rightMeow.getFullYear()} Akasa Mind and Bodyhealth
                     </div>
                     <div className="text-center">
-                        Built with React {logo}
+                        Built with React<img src={logo} className="react-logo" alt="logo"/>
                     </div>
                 </div>
             </div>
