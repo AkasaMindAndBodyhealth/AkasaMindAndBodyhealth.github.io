@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import akasaLogo from '../../images/akasaLogo.png';
-import { BrowserRouter as Link } from 'react-router-dom';
-import './Navigation.scss';
+// import { BrowserRouter as Link } from 'react-router-dom';
+import { Link }  from 'react-router-dom';
 
+import './Navigation.scss';
 
 class Navigation extends Component {
   constructor() {
@@ -16,7 +17,7 @@ class Navigation extends Component {
         <Link to={'/'}>
            <div className="navbar-brand" href="/"><img src={akasaLogo} alt="Akasa Mind and Bodyhealth"/></div>
         </Link>
-        <div className="navbar-collapse collapse justify-content-center order-2" id="collapsingNavbar">
+        <div class="navbar-collapse collapse justify-content-center order-2" id="collapsingNavbar">
           <ul id="pageLinks" className="nav justify-content-center">
             <Link to={'/'} className="nav-item">
               <li className="nav-link">Home</li>
@@ -47,8 +48,8 @@ class Navigation extends Component {
                 <i class="fas fa-phone-square"></i>
               </a>
             </li>
-          </ul>
-        </div> 
+          </ul> 
+        </div>
       </nav> 
     );
   }
