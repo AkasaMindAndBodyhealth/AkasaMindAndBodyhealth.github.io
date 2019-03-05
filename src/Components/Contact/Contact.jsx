@@ -1,8 +1,8 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
-//import { Test } from './Services.styles';
+//import { Test } from './Contact.styles';
 
-class Services extends PureComponent { 
+class Contact extends PureComponent { 
   constructor(props) {
     super(props);
 
@@ -12,27 +12,27 @@ class Services extends PureComponent {
   }
 
   componentWillMount = () => {
-    console.log('Services will mount');
+    console.log('Contact will mount');
   }
 
   componentDidMount = () => {
-    console.log('Services mounted');
+    console.log('Contact mounted');
   }
 
   componentWillReceiveProps = (nextProps) => {
-    console.log('Services will receive props', nextProps);
+    console.log('Contact will receive props', nextProps);
   }
 
   componentWillUpdate = (nextProps, nextState) => {
-    console.log('Services will update', nextProps, nextState);
+    console.log('Contact will update', nextProps, nextState);
   }
 
   componentDidUpdate = () => {
-    console.log('Services did update');
+    console.log('Contact did update');
   }
 
   componentWillUnmount = () => {
-    console.log('Services will unmount');
+    console.log('Contact will unmount');
   }
 
   render () {
@@ -40,19 +40,19 @@ class Services extends PureComponent {
       return <h1>Something went wrong.</h1>;
     }
     return (
-      <div className="ServicesWrapper">
+      <div className="ContactWrapper">
         Test content
       </div>
     );
   }
 }
 
-Services.propTypes = {
+Contact.propTypes = {
   // bla: PropTypes.string,
 };
 
-Services.defaultProps = {
+Contact.defaultProps = {
   // bla: 'test',
 };
 
-export default Services;
+export default Contact;
