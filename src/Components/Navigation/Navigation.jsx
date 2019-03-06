@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import akasaLogo from '../../images/akasaLogo.png';
-// import { BrowserRouter as Link } from 'react-router-dom';
 import { Link }  from 'react-router-dom';
 
 import './Navigation.scss';
@@ -50,7 +49,7 @@ class Navigation extends Component {
             </li>
           </ul> 
         </div>
-      </nav> 
+      </nav>
     );
   }
 

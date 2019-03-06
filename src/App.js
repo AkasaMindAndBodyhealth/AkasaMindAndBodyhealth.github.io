@@ -4,6 +4,9 @@ import './App.css';
 import Navigation from './Components/Navigation';
 import StickyFooter from "./Components/StickyFooter";
 import Home from './Components/Home';
+import About from './Components/About';
+import Services from './Components/Services';
+import Contact from './Components/Contact';
 import logo from './logo.svg';
 
 class App extends Component {
@@ -14,8 +17,9 @@ class App extends Component {
           <div>
             <Navigation />
             <Route exact path="/" component={Home} />
-            {/* <Route path="/about" component={About} />
-            <Route path="/contact" component={Contact} /> */}
+            <Route path="/about" component={About} />
+            <Route path="/services" component={Services} />
+            <Route path="/contact" component={Contact} />
           </div>
         </Router>
         <StickyFooter/>

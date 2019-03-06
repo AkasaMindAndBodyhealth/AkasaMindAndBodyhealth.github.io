@@ -8,8 +8,6 @@ $correction: 0;
     background-color:rgba(255,255,255,0.7);
     .nav{
       position: relative !important;
-      right: 10vw;
-      
     }
 
     .navbar-brand{
@@ -17,20 +15,34 @@ $correction: 0;
         padding-bottom: 0;
         max-width: 300px;
     }
-
-    .nav-item{
-        padding: 3vw;
-        
+    #pageLinks{
+        .nav-link{
+            font-size: 1.8vw;
+            color: white !important;
+            @include text-stroke($size, $color, $correction);
+        }
+        .nav-item{
+            padding: 1.5vw;  
+        }
     }
+    #social{
+        margin-left: 5px;
+        
+        .nav-link{
+            font-size: 1vw;
+            color: white !important;
+            @include text-stroke($size, $color, $correction);
+        }
+        .nav-item{
+            padding: 0;  
+        }
+    }
+
+    
 
     .nav-link:hover {cursor: pointer;}
 
-    .nav-link{
-
-        font-size: 1.8vw;
-        color: white !important;
-        @include text-stroke($size, $color, $correction);
-    }
+    
 }
 
 
