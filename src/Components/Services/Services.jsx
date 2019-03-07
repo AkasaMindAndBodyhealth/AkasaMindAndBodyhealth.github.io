@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
+import './Services.scss';
 //import { Test } from './Services.styles';
 
 class Services extends PureComponent { 
@@ -40,8 +41,8 @@ class Services extends PureComponent {
       return <h1>Something went wrong.</h1>;
     }
     return (
-      <div className="ServicesWrapper">
-        Test content
+      <div id="ServicesWrapper">
+        <iframe src="https://akasamindandbodyhealth.fullslate.com/"></iframe>
       </div>
     );
   }

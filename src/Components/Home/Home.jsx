@@ -55,11 +55,14 @@ class Home extends PureComponent {
               <div className="col-md-4">
                 <h3>Skin Care</h3>
                 <div>
-                  We also offer Skin Care services including Microdermabrasion from our Associated Skin Care Professionals. pressure points in the hands and feet, she makes pain melt away.
+                  We also offer Skin Care services including Microdermabrasion from an Associated Skin Care Professional. 
                 </div>
               </div>
               <div className="col-md-4">
                 <h3>Reflexology</h3>
+                <div>
+                  Using pressure points in the hands and feet, it is possible to treat issues throughout the entire body.
+                </div>
               </div>
             </div>
             <hr/>
