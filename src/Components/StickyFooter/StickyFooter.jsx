@@ -10,14 +10,14 @@ class StickyFooter extends Component{
 
     render(){
         return(
-            <div className="stickyFooter">
-                <div className="container">
-                    <div className="text-center">
-                        Copyright &copy; {this.state.rightMeow.getFullYear()} Akasa Mind and Bodyhealth
-                    </div>
-                    <div className="text-center">
+            <div className="stickyFooter fixed-bottom ">
+                <div className="container text-center">
+                  <div className="row justify-content-md-center">
+                    <div className="col-12 text-center w-100">
+                        Copyright &copy; {this.state.rightMeow.getFullYear()} Akasa Mind and Bodyhealth<br/>
                         Built with React<img src={logo} className="react-logo" alt="logo"/>
                     </div>
+                  </div>
                 </div>
             </div>
         );

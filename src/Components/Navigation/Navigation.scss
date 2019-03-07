@@ -3,11 +3,14 @@
 $size: 1;
 $color: #1b615b;
 $correction: 0;
+$dropShadow: 0px 10px 10px rgba(68, 70, 67, 0.8);
 
 #main-navigation{
+    box-shadow: $dropShadow;
     background-color:rgba(255,255,255,0.7);
     .nav{
       position: relative !important;
+      
     }
 
     .navbar-brand{
