@@ -13,5 +13,8 @@
 }
 
 .stickyFooter{
+    position: relative;
+    padding-bottom: 10px; 
+    bottom: -5px !important;
     background-color: rgba(100,125,100,0.8);
 }
