@@ -3,6 +3,7 @@
 $size: 1;
 $color: #1b615b;
 $correction: 0;
+$break-large: 922px;
 $dropShadow: 0px 10px 10px rgba(68, 70, 67, 0.8);
 
 #main-navigation{
@@ -30,6 +31,10 @@ $dropShadow: 0px 10px 10px rgba(68, 70, 67, 0.8);
     }
     #social{
         margin-left: 5px;
+        // @media screen and (min-width: $break-large) {
+        //     margin-right:25vw;
+        //     width: 50vw;
+        // }
         
         .nav-link{
             font-size: 1vw;
@@ -38,6 +43,9 @@ $dropShadow: 0px 10px 10px rgba(68, 70, 67, 0.8);
         }
         .nav-item{
             padding: 0;  
+        }
+        @media screen {
+            
         }
     }
 
