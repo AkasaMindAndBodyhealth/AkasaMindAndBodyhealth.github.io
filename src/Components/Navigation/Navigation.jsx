@@ -17,7 +17,7 @@ class Navigation extends Component {
            <div className="navbar-brand" href="/"><img src={akasaLogo} alt="Akasa Mind and Bodyhealth"/></div>
         </Link>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar" aria-controls="collapsingNavbar" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <i class="fas fa-bars"></i>
         </button>
         <div class="navbar-collapse collapse justify-content-center order-2" id="collapsingNavbar">
           <ul id="pageLinks" className="nav justify-content-center mr-auto">
