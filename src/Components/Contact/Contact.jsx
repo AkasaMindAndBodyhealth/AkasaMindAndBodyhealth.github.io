@@ -45,8 +45,22 @@ class Contact extends PureComponent {
         <div className="container">
           <h2 className="text-center">Need Directions?  Want to follow us on Social Media to get specials?</h2>
           <div className="row">
-            <div className="col-6">
-              
+            <div className="col-6 text-center">
+              <h3>Address</h3>
+              <div>
+                10050 Ralston Rd<br/>
+                Arvada, CO 80004
+              </div>
+              <br/>
+              <h4>Phone Number</h4>
+              <a href="tel:+18203826832"><i class="fas fa-phone"></i> 720-382-6832</a>
+              <h3>Let's Socialize</h3>
+              <div>
+                <i class="fab fa-facebook"></i>
+              </div>
+              <div>
+                <img src="yelp.png" alt="Akasa Mind and Bodyhealth on Yelp"/>
+              </div>
             </div>
             <div className="col-6 align-content-center">
               <Map />
