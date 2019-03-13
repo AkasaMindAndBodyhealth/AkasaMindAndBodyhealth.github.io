@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
-//import { Test } from './Contact.styles';
+import Map from './Map';
+import './Contact.scss';
 
 class Contact extends PureComponent { 
   constructor(props) {
@@ -41,7 +42,17 @@ class Contact extends PureComponent {
     }
     return (
       <div className="ContactWrapper">
-        Test content
+        <div className="container">
+          <h2 className="text-center">Need Directions?  Want to follow us on Social Media to get specials?</h2>
+          <div className="row">
+            <div className="col-6">
+              
+            </div>
+            <div className="col-6 align-content-center">
+              <Map />
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
