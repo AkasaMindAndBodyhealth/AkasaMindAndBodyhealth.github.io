@@ -63,7 +63,7 @@ class Contact extends PureComponent {
               </div>
             </div>
             <div className="col-6 align-content-center">
-              <Map />
+              <Map action={{route: 'ralston'}} />
             </div>
           </div>
         </div>

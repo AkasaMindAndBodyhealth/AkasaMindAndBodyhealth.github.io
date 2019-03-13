@@ -5,3 +5,19 @@
     margin:0;
     height: 60vh;
 }
+
+.mapboxgl-popup-content {
+    .mapboxgl-popup-close-button{
+        border-radius: 10px 0px 0px 0px; 
+    }
+    position: relative;
+    background-color: rgba(235,255,235,0.95);
+    max-width: 300px;
+    height: 10vh;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px rgba(35,55,35,0.5)
+}
+
+#popup {
+    text-align: center;
+}
