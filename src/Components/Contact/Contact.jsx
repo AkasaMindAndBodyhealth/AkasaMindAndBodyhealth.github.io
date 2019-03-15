@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import Map from './Map';
+import Address from './Address';
 import './Contact.scss';
 
 class Contact extends PureComponent { 
@@ -43,21 +44,10 @@ class Contact extends PureComponent {
     return (
       <div id="ContactWrapper">
         <div className="container">
-          <h2 className="text-center">Need Directions?  Want to follow us on Social Media to get specials?</h2>
+          <h2 className="text-center display-6">Need Directions?  Want to follow us on Social Media to get specials?</h2>
           <div className="row">
             <div className="col-6 text-center" id="address">
-              <div className="row">
-                <div className="col-12">
-                  <h3>Address</h3>
-                  <div>
-                    10050 Ralston Rd<br/>
-                    Arvada, CO 80004
-                  </div>
-                  <br/>
-                  <h4>Phone Number</h4>
-                  <a href="tel:+18203826832"><i class="fas fa-phone"></i> 720-382-6832</a>
-                </div>
-              </div>
+              <Address />
               <div className="row">
                 <div className="col-12">
                 <h3>Let's Socialize</h3>
