@@ -41,11 +41,11 @@ class Contact extends PureComponent {
       return <h1>Something went wrong.</h1>;
     }
     return (
-      <div className="ContactWrapper">
+      <div id="ContactWrapper">
         <div className="container">
           <h2 className="text-center">Need Directions?  Want to follow us on Social Media to get specials?</h2>
           <div className="row">
-            <div className="col-6 text-center">
+            <div className="col-6 text-center" id="address">
               <h3>Address</h3>
               <div>
                 10050 Ralston Rd<br/>
