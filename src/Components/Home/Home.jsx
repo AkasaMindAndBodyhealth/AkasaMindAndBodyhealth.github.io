@@ -44,21 +44,21 @@ class Home extends PureComponent {
       <div className="HomeWrapper">
         <div id="Home" className="container">
           <div id="sliderContainer" className="jumbotron">
-            <Carousel />
+            {/* <Carousel /> */}
             <div className="row">
-              <div className="col-md-4">
+              <div className="col-md-4 text-center">
                 <h3>Massage Therapy</h3>
                 <div>
                   We offer many different varieties of massage such as Swedish, Deep Tissue, Aromatherapy, Raindrop technique & Hot/Cold Stone.
                 </div>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4 text-center">
                 <h3>Skin Care</h3>
                 <div>
                   We also offer Skin Care services including Microdermabrasion from an Associated Skin Care Professional. 
                 </div>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4 text-center">
                 <h3>Reflexology</h3>
                 <div>
                   Using pressure points in the hands and feet, it is possible to treat issues throughout the entire body.
