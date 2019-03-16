@@ -2,7 +2,9 @@ import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import Map from './Map';
 import Address from './Address';
+import Social from './Social';
 import './Contact.scss';
+
 
 class Contact extends PureComponent { 
   constructor(props) {
@@ -50,13 +52,7 @@ class Contact extends PureComponent {
               <Address />
               <div className="row">
                 <div className="col-12">
-                <h3>Let's Socialize</h3>
-                  <div>
-                    <i class="fab fa-facebook"></i>
-                  </div>
-                  <div>
-                    <img src="yelp.png" alt="Akasa Mind and Bodyhealth on Yelp"/>
-                  </div>
+                  <Social />
                 </div>
               </div>
             </div>
