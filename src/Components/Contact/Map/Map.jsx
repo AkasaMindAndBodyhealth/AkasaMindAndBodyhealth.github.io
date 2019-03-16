@@ -20,12 +20,12 @@ class Map extends PureComponent {
 
   componentDidMount = () => {
     console.log('Map mounted');
-    mapboxgl.accessToken = 'pk.eyJ1Ijoic2hpcG1lYW50ZGV2IiwiYSI6ImNqc3I1NTV5aDA5NTA0OXBid2w1cWhpNGQifQ.87vw04MAc-3uCaY0rAXOqg';
+    mapboxgl.accessToken = 'pk.eyJ1IjoibWFwcXVlc3QiLCJhIjoiY2Q2N2RlMmNhY2NiZTRkMzlmZjJmZDk0NWU0ZGJlNTMifQ.mPRiEubbajc6a5y9ISgydg';
     map = new mapboxgl.Map({
-    container: 'map',
-    style: 'mapbox://styles/mapbox/cjaudgl840gn32rnrepcb9b9g',
-    zoom: 10,
-    center: [-105.111295, 39.808610]
+      container: 'map',
+      style: 'mapbox://styles/mapbox/cjaudgl840gn32rnrepcb9b9g',
+      zoom: 10,
+      center: [-105.111295, 39.808610]
     });
     
     map.on("load", function () {

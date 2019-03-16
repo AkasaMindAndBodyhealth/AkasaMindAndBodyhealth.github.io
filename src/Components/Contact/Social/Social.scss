@@ -1,0 +1,9 @@
+#SocialWrapper{
+    margin-top: 2vh;
+    .yelp-logo, .fb-logo {
+        padding-top: 2vh;
+        max-width: 12vw;
+        -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.5));
+        filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.5));
+    }
+}

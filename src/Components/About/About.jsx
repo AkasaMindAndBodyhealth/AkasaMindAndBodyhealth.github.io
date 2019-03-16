@@ -43,12 +43,10 @@ class About extends PureComponent {
     return (
       <div id="AboutWrapper">
         <div className="container">
-          <h1>About Akasa</h1>
+          <h1 className="text-center">About Akasa</h1>
           <div className="row">
             <div className="col-12">
-              <h2>
-              On Health and Healing
-              </h2>
+              <h2 className="text-center">On Health and Healing</h2>
               <p>
               Health is not the absence of disease; it is balance and harmony of functioning in mind and body. 
               When our thoughts, emotions, body structure, physiology, and relationships are working in unison, we experience what we call health. 
@@ -59,20 +57,11 @@ class About extends PureComponent {
           </div>
           <div className="row">
             <div className="col-12">
-              <h2>
-              Therapeutic Modalities
-              </h2>
+              <h2 className="text-center">Therapeutic Modalities</h2>
               <p>
               We strive for integration and do not compete with other modalities or practioners but instead work with them through Holistic services to bring a variety of alternatives to clients everywhere!! 
               We offer many different therapies that help promote holistic health including Massage/Bodywork, Skin Care, Aromatherapy, and Body Alignment!  
               </p>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-12">
-              <h2>
-              On Health and Healing
-              </h2>
             </div>
           </div>
         </div>
