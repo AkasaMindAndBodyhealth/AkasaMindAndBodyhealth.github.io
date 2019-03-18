@@ -52,6 +52,9 @@ class Navigation extends Component {
             </li>
           </ul> 
         </div>
+        <a id="bookEm" className="btn btn-success" target="_blank"  rel="noopener noreferrer"  href="tel:+17203826832">
+          Book Now
+        </a>
       </nav>
     );
   }
