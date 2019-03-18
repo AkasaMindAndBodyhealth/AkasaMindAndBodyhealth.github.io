@@ -1,9 +1,12 @@
 @import "~sass-text-stroke/_text-stroke";
 
 $size: 1;
-$color: #1b615b;
+$color: #96B53D;
 $correction: 0;
-$break-large: 922px;
+$break-large: 1068px;
+$pageLinkColor: rgb(51, 31, 11);
+$akasaGreen: #7ba533;
+$akasaDeepGreen: #5a7925;
 $dropShadow: 0px 10px 10px rgba(68, 70, 67, 0.8);
 
 #main-navigation{
@@ -13,7 +16,7 @@ $dropShadow: 0px 10px 10px rgba(68, 70, 67, 0.8);
         background: rgba(255,255,255,0.7);
         border-radius: 10%;
         position: relative;
-        color:rgba(100, 57, 20, 0.8);
+        color:rgb(110, 62, 14);
         top:-3vh;
         right: 7vw;
         font-size: 5vw;
@@ -35,11 +38,14 @@ $dropShadow: 0px 10px 10px rgba(68, 70, 67, 0.8);
         width: 55vw;
         .nav-link{
             font-size: 2.25vw;
-            color: white !important;
+            color: $pageLinkColor !important;
             @include text-stroke($size, $color, $correction);
         }
         .nav-item{
             padding: 1vw;  
+        }
+        a:hover{
+            text-decoration: none !important;
         }
         li a:focus {
             text-decoration:none !important;
@@ -58,7 +64,7 @@ $dropShadow: 0px 10px 10px rgba(68, 70, 67, 0.8);
             width: 100vw;
             .nav-link{
                 font-size: 4vw;
-                color: white !important;
+                color: $pageLinkColor !important;
                 @include text-stroke($size, $color, $correction);
             }
         }
@@ -72,7 +78,7 @@ $dropShadow: 0px 10px 10px rgba(68, 70, 67, 0.8);
         font-size:3vw;
         .nav-link{
             font-size: 2.5vw;
-            color: white !important;
+            color: $pageLinkColor !important;
             @include text-stroke($size, $color, $correction);
         }
         @media screen and (max-width: 1268px) {
@@ -81,7 +87,7 @@ $dropShadow: 0px 10px 10px rgba(68, 70, 67, 0.8);
             width:25vw;
             .nav-link{
                 font-size: 2vw;
-                color: white !important;
+                color: $pageLinkColor !important;
                 @include text-stroke($size, $color, $correction);
             }
         }
@@ -91,37 +97,35 @@ $dropShadow: 0px 10px 10px rgba(68, 70, 67, 0.8);
             width:30vw;
             .nav-link{
                 font-size: 2vw;
-                color: white !important;
+                color: $pageLinkColor !important;
                 @include text-stroke($size, $color, $correction);
             }
         }
         @media screen and (max-width: $break-large) {
-            right:0vw;
-            margin-left:5vw;
-            width: 25vw;
-            .nav-link{
-                font-size: 2vw;
-                color: white !important;
-                @include text-stroke($size, $color, $correction);
-            }
-        }
-
-        @media screen and (max-width: 875px) {
             display:none;
         }
-        
-        
         
         .nav-item{
             padding: 0;  
         }
-        @media screen {
-            
+    }
+
+    #bookEm{
+        position: relative;
+        background-color: $akasaGreen !important;
+        right: 2vw;
+        font-size: 1.8vw;
+        width: 13vw;
+        border-color: $akasaDeepGreen !important;
+        @media screen and (max-width: 860px){
+            right: 0.5vw;
+            font-size: 2vw;
+            width: 15vw;
         }
-        #bookEm{
-            position: relative;
-            right: 0vw;
-            top: 3vh;
+        @media screen and (max-width: 768px){
+            left: -1vw;
+            font-size: 2.5vw;
+            width: 18vw;
         }
     }
 

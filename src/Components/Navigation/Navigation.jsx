@@ -19,8 +19,8 @@ class Navigation extends Component {
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar" aria-controls="collapsingNavbar" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fas fa-bars"></i>
         </button>
-        <div class="navbar-collapse collapse justify-content-center order-2" id="collapsingNavbar">
-          <ul id="pageLinks" className="nav justify-content-center mr-auto">
+        <div class="navbar-collapse collapse justify-content-center" id="collapsingNavbar">
+          <ul id="pageLinks" className="navbar-nav w-100 justify-content-center">
             <Link to={'/'} className="nav-item">
               <li className="nav-link">Home</li>
             </Link>
@@ -31,10 +31,10 @@ class Navigation extends Component {
               <li className="nav-link">Services</li>
             </Link>
             <Link to={'/contact'} className="nav-item">
-              <li className="nav-link">Contact Us</li>
+              <li className="nav-link">Contacts</li>
             </Link>
           </ul>
-          <ul id="social" className="nav justify-content-end">
+          <ul id="social" className="nav navbar-nav ml-auto w-100 justify-content-end">
             <li className="nav-item">
               <a className="nav-link active" target="_blank"  rel="noopener noreferrer" href="https://www.yelp.com/biz/akasa-mind-and-bodyhealth-arvada-2">
                 <i class="fab fa-yelp"></i>
@@ -51,10 +51,11 @@ class Navigation extends Component {
               </a>
             </li>
           </ul> 
+          <a id="bookEm" className="btn btn-success" target="_blank"  rel="noopener noreferrer"  href="tel:+17203826832">
+          Book Now <i class="fa fa-calendar" aria-hidden="true"></i>
+          </a>
         </div>
-        <a id="bookEm" className="btn btn-success" target="_blank"  rel="noopener noreferrer"  href="tel:+17203826832">
-          Book Now
-        </a>
+        
       </nav>
     );
   }
