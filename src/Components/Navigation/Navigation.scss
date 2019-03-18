@@ -32,7 +32,7 @@ $dropShadow: 0px 10px 10px rgba(68, 70, 67, 0.8);
     }
     #pageLinks{
         margin-left:3.5vw;
-        width: 50vw;
+        width: 55vw;
         .nav-link{
             font-size: 2.25vw;
             color: white !important;
@@ -66,13 +66,24 @@ $dropShadow: 0px 10px 10px rgba(68, 70, 67, 0.8);
         
     }
     #social{
+        
         position: relative;
         margin-right: 3vw;
         font-size:3vw;
         .nav-link{
-            font-size: 3vw;
+            font-size: 2.5vw;
             color: white !important;
             @include text-stroke($size, $color, $correction);
+        }
+        @media screen and (max-width: 1268px) {
+            right:0vw;
+            margin-left:10vw;
+            width:25vw;
+            .nav-link{
+                font-size: 2vw;
+                color: white !important;
+                @include text-stroke($size, $color, $correction);
+            }
         }
         @media screen and (max-width: 1200px) {
             right:0vw;
@@ -106,6 +117,11 @@ $dropShadow: 0px 10px 10px rgba(68, 70, 67, 0.8);
         }
         @media screen {
             
+        }
+        #bookEm{
+            position: relative;
+            right: 0vw;
+            top: 3vh;
         }
     }
 
