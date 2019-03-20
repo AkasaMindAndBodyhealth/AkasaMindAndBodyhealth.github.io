@@ -1,7 +1,9 @@
+@import '../../Global.scss';
+
 #sliderContainer {
     position: relative;
     top: 30px;
-    background-color: rgba(250, 249, 200, 0.7);
+    background-color: $whiteFade;
     
 }
 
