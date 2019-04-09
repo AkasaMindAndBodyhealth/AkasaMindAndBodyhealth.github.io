@@ -7,7 +7,7 @@ This template is available for other massage therapists to use as well as compan
 
 If you'd like to contribute to or modify this site please make a pull request or fork your own version.  
 
-This site is based on Bootstrap 4, but will soon be a fully Angular 5 driven application.
+This site is based on Bootstrap 4, but will soon be a fully React driven application.
 
 Thanks for your interest,
 The Akasa Web Dev Team
